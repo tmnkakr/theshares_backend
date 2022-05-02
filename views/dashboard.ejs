@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/css/dashboard.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div style="display: inline">
+      <ul>
+        <li style="display: inline-block; width: 200px">
+          <a href="">Long term share</a>
+        </li>
+        <li style="display: inline-block; width: 200px">
+          <a href="">Short term share</a>
+        </li>
+        <li style="display: inline-block">
+          <button type="button" onclick="editorButtonClicked()">Go to Editor</button>
+            <input type="text" placeholder="search" id="search" name="search" value = "" autocomplete="off">
+          <button type="button" onclick="searchButtonClicked()">search</button>
+          <br /><br />
+        </li>
+      </ul>
+    </div>
+    <div style="display: flex; flex-direction: row">
+      <div class="card item1">
+        
+        <div class="container">
+        </div>
+      </div>
+
+      <div class="card item2">
+        
+        <div class="container" id="mainData">
+        </div>
+      </div>
+
+      <div class="card item3">
+        
+        <div class="container">
+          
+        </div>
+      </div>
+    </div>
+    <script src="/js/dashboard.js"></script>
+  </body>
+</html>

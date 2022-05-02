@@ -1,0 +1,43 @@
+{
+    "Config": [
+        {"mysqlDbConfig":{
+            "connectionLimit":50,
+            "host":"localhost",
+            "user":"root",
+            "password":"Taken123@",
+            "port":3306,
+            "database":"dgfeddddddddds",
+            "query":{
+                "timeout":15000
+            }
+        }},
+        {
+            "mysqlserverDbConfig":{
+                "connectionLimit":50,
+                "host":"db.cbxxxxxxxxxxxxxxxxxxxxxxxx",
+                "user":"axxxxn",
+                "password":"Exxxxxxx#",
+                "port":3306,
+                "database":"txxxxxxxxes",
+                "query":{
+                    "timeout":15000
+                }
+            }}
+        ],
+    "ErrorRelated":{
+        "directory":"Errors/normal",
+        "panels":{
+            "articleVerification":"Errors/panels/articleVerification"
+        }
+    },
+    "Encryption":{
+        "key":"32rrddddddddddddf3",
+        "iv":"ddddddddddddre",
+        "inputEncoding":"utf-8",
+        "outputEncoding":"hex",
+        "algorithm":"xxxxxxxxxxxx",
+        "saltForUserData":"312dddddddddddd23sd32"
+    }
+
+
+}

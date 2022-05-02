@@ -1,0 +1,18 @@
+const router = require("express").Router();
+const login = require("./login")
+const register = require("./register")
+const dashboardPage = require("./dashboard")
+const processSearch = require("./processSearch")
+const editor = require("./editor")
+const getArticle = require("./getArticle")
+const getPanels = require("./getPanels")
+const getunverifiedArticles = require("./getunverifiedArticles")
+router.use("/login", login)
+router.use("/register",register)
+router.use("/dashboard",dashboardPage)
+router.use("/processSearch",processSearch)
+router.use("/editor",editor)
+router.use("/getArticle",getArticle)
+router.use("/unverifiedArticles",getunverifiedArticles)
+router.use("/panel",getPanels)
+module.exports = router

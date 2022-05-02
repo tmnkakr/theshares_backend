@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/public/css/style.css" />
+  </head>
+
+  <body>
+    <center>
+      <h1>Welcome here for registration</h1>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" /><br /><br />
+      <label for="password">Password:</label>
+      <input type="text" id="password" name="password" /><br /><br />
+      <label for="first_name">first_name:</label>
+      <input type="text" id="first_name" name="first_name" /><br /><br />
+      <label for="last_name">last_name:</label>
+      <input type="text" id="last_name" name="last_name" /><br /><br />
+      <label for="phone">Enter your phone number:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+      />
+      <button type="button" onclick="submitButtonClicked()">Submit</button>
+      <br /><br /><br />
+      <label for="dob">Date of birth:</label>
+      <input type="date" id="dob" name="dob" value="2018-07-22" />
+      <a href="/app/login" type="none">Login</a>
+    </center>
+    <script src="/js/register.js"></script>
+  </body>
+</html>
